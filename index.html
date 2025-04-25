@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">FinTeka</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <img src="assets/img/finteka.png" alt="Logo">
+    </div>
+    <div class="nav-links">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About Us</a>
+        <a href="#learn" data-i18n="nav.learn">Learn More</a>
+        <a href="#subscribe" data-i18n="nav.subscribe">Subscribe</a>
+    </div>
+    <div class="nav-buttons">
+        <a href="#" class="btn-login" data-i18n="nav.login">Login</a>
+        <a href="#" class="btn-register" data-i18n="nav.register">Register</a>
+        <div class="lang-switcher">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+    </div>
 
+    
+</nav>
+<!-- Sección Home -->
+<section id="home">
+    <div class="home-left">
+        <h1 data-i18n="home.title">Welcome to FinTeka!</h1>
+        <p data-i18n="home.description">We connect individuals and businesses with verified experts...</p>
+        <div>
+            <a href="#" class="btn" data-i18n="home.register">Register</a>
+            <a href="#learn" class="btn btn-secondary" data-i18n="home.learnMore">Learn More</a>
+        </div>
+    </div>
+    <div class="home-right">
+        <img src="assets/img/home-image.jpg" alt="People in meeting" class="home-image">
+    </div>
+</section>
+
+<!-- Sección About Us -->
+<section id="about">
+    <h2 class="about-title" data-i18n="about.title">About Us</h2>
+    <div class="team-grid">
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/Sergio-Aguirre.jpg" alt="Sergio Aguirre" class="team-image">
+            </div>
+            <h3 class="team-name">Sergio Cesar Aguirre Castillo</h3>
+            <p class="team-position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/Mathias-Javier.jpg" alt="Mathias Javier" class="team-image">
+            </div>
+            <h3 class="team-name">Mathias Javier Murillo</h3>
+            <p class="team-position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/Luis-Moreno.jpg" alt="Luis Moreno" class="team-image">
+            </div>
+            <h3 class="team-name">Luis Angel Montañez Moreno</h3>
+            <p class="team-position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/Daiki-Oshiro.png" alt="Daiki Oshiro" class="team-image">
+            </div>
+            <h3 class="team-name">Daiki Oscar Oshiro Yamashita</h3>
+            <p class="team-position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/Russell-Romero.png" alt="Russell Romero" class="team-image">
+            </div>
+            <h3 class="team-name">Russell Stephen Romero Qwistgaard</h3>
+            <p class="team-position" data-i18n="about.degree">Software Engineering student</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Learn More -->
+<section id="learn">
+    <h2 class="section-title" data-i18n="learn.title">Learn More About Fineko</h2>
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/marketplace-experts.jpg" alt="Verified Experts Marketplace" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle1">Verified Experts Marketplace</h3>
+                <p data-i18n="learn.text1">Access a trusted network of professionals in areas such as finance, marketing, technology, personal development and more.
+                    All consultants go through a verification process to ensure quality and trust.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/booking.jpg" alt="Intelligent Booking and Scheduling" class="info-icon">
+            </div>
+            <div class="info-content" >
+                <h3 data-i18n="learn.subtitle2">Intelligent Booking and Scheduling</h3>
+                <p data-i18n="learn.text2">Allow users to easily book sessions based on consultant availability.
+                    Calendar integration, push notifications and reminders so you never miss an appointment!</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/consulting.jpg" alt="Secure and Personalized Online Consulting" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle3">Secure and Personalized Online Consulting</h3>
+                <p data-i18n="learn.text3">1:1 video call sessions, with the option to share documents,
+                    record the meeting (if authorized), and follow up afterwards for a complete and professional experience.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/Payment-Invoicing.jpg" alt="Payment and Invoicing Management" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle4">Payment and Invoicing Management</h3>
+                <p data-i18n="learn.text4">Integrated payment platform to facilitate secure transactions.
+                    Consultants are paid on time and users can pay by multiple methods, with automatic billing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Subscribe -->
+<section id="subscribe">
+    <h2 class="pricing-title" data-i18n="subscribe.title">Subscription Plans</h2>
+    <div class="pricing-grid">
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.trial">Trial Plan</h3>
+            <div class="price" data-i18n="subscribe.free">Free</div>
+            <ul>
+                <li data-i18n="subscribe.free1">Publication of 1 consulting service</li>
+                <li data-i18n="subscribe.free2">Up to 3 monthly bookings</li>
+                <li data-i18n="subscribe.free3">Access to integrated video calls</li>
+                <li data-i18n="subscribe.free4">Basic email support</li>
+                <li data-i18n="subscribe.free5">Visible profile in search (limited)</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.lite">Lite Consulting</h3>
+            <div class="price" data-i18n="subscribe.price1">$5.00</div>
+            <ul>
+                <li data-i18n="subscribe.lite1">Publication of up to 3 services</li>
+                <li data-i18n="subscribe.lite2">Unlimited bookings</li>
+                <li data-i18n="subscribe.lite3">Featured profile in local searches</li>
+                <li data-i18n="subscribe.lite4">Support via email and chat</li>
+                <li data-i18n="subscribe.lite5">Access to basic performance metrics</li>
+                <li data-i18n="subscribe.lite6">Appointment management tools</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.premium">Premium Consulting</h3>
+            <div class="price" data-i18n="subscribe.price2">S/.50,00</div>
+            <ul>
+                <li data-i18n="subscribe.premium1">Unlimited service publication</li>
+                <li data-i18n="subscribe.premium2">Unlimited bookings</li>
+                <li data-i18n="subscribe.premium3">High profile at national level</li>
+                <li data-i18n="subscribe.premium4">Search engine priority and promotions</li>
+                <li data-i18n="subscribe.premium5">Personalized support</li>
+                <li data-i18n="subscribe.premium6">Full access to metrics and reports</li>
+                <li data-i18n="subscribe.premium7">Advanced features: automatic reminders, post-consultation follow-up, recurring clients</li>
+                <li data-i18n="subscribe.premium8">Personal branding tools: portfolio, testimonials, personalized links</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <div>
+        <div>
+            <button data-i18n="footer.register">Register Now</button>
+        </div>
+        <div>
+            <strong data-i18n="footer.contact">Contact Us</strong><br>
+            <span data-i18n="footer.phone">Phone</span>: +51 999 999 999<br>
+            <span data-i18n="footer.email">Email</span>: serviciocliente@fintek.com
+        </div>
+        <div>
+            <strong data-i18n="footer.legal">Legal</strong><br>
+            <a href="#" data-i18n="footer.terms">Terms & Conditions</a><br>
+            <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+<script src="javascript/i18n.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
