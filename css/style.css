@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Light", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Navegación */
@@ -60,6 +63,58 @@ nav {
     font-size: 0.9rem;
 }
 
+/* Menú hamburguesa para móviles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/* Animación del menú hamburguesa */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Overlay para el menú móvil */
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 98;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.menu-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
 .btn-login {
     color: #4ecdc4;
     text-decoration: none;
@@ -109,10 +164,31 @@ section {
     flex-direction: column;
 }
 
+@media (max-width: 768px) {
+    section {
+        min-height: auto;
+        padding: 60px 5% 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 40px 5% 30px;
+    }
+}
+
 .section-title {
     color: #333;
     margin-bottom: 30px;
     font-size: 2em;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        margin-bottom: 20px;
+        font-size: 1.6em;
+    }
 }
 
 /* Home Section */
@@ -148,6 +224,8 @@ section {
 .home-image {
     width: 100%;
     height: auto;
+    max-height: 500px;
+    object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
@@ -184,8 +262,21 @@ section {
 .team-image {
     width: 100%;
     height: 400px;
+    object-fit: cover;
     background-color: #f0f0f0;
     margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .team-image {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-image {
+        height: 250px;
+    }
 }
 
 .team-name {
@@ -224,6 +315,16 @@ section {
     height: 80px;
     background-color: #f0f0f0;
     flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .info-icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
 }
 
 .info-content h3 {
@@ -243,6 +344,18 @@ section {
     margin-top: -500px;
 }
 
+@media (max-width: 768px) {
+    #subscribe {
+        margin-top: -300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #subscribe {
+        margin-top: -200px;
+    }
+}
+
 .pricing-title {
     text-align: center;
     margin-bottom: 40px;
@@ -259,6 +372,26 @@ section {
     padding: 30px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .pricing-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pricing-card {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
 }
 
 .pricing-card h3 {
@@ -328,6 +461,20 @@ footer {
     margin-top: -100px;
 }
 
+@media (max-width: 768px) {
+    footer {
+        margin-top: -50px;
+        padding: 30px 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        margin-top: -30px;
+        padding: 20px 5%;
+    }
+}
+
 footer > div {
     display: flex;
     justify-content: space-between;
@@ -338,6 +485,13 @@ footer > div {
 footer > div > div {
     flex: 1;
     min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    footer > div > div {
+        min-width: 100%;
+        text-align: center;
+    }
 }
 
 footer strong {
@@ -373,6 +527,13 @@ footer button {
 footer button:hover {
     background-color: #3dbdb4;
 }
+
+@media (max-width: 480px) {
+    footer button {
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
 /* Responsive */
 @media (max-width: 1024px) {
     .team-grid {
@@ -382,9 +543,63 @@ footer button:hover {
     .pricing-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .team-grid .team-member:nth-child(5){
+        grid-column: 1 / span 2;
+    }
+    
+    section {
+        padding: 20px 5%;
+    }
 }
 
 @media (max-width: 768px) {
+    /* Navegación responsive */
+    .hamburger {
+        display: flex;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #003844;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 80px;
+        transition: right 0.3s ease;
+        z-index: 99;
+    }
+    
+    .nav-links.active {
+        right: 0;
+    }
+    
+    .nav-links a {
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+    
+    .nav-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: -100%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        transition: right 0.3s ease;
+        z-index: 99;
+    }
+    
+    .nav-buttons.active {
+        right: 15%;
+    }
+    
+    /* Otras secciones responsive */
     #home {
         flex-direction: column;
         gap: 20px;
@@ -402,21 +617,7 @@ footer button:hover {
         flex-direction: column;
         gap: 20px;
     }
-}
-
-@media (max-width: 480px) {
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .info-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
+    
     footer > div {
         flex-direction: column;
         gap: 25px;
@@ -424,5 +625,52 @@ footer button:hover {
 
     footer > div > div {
         width: 100%;
+    }
+    
+    .home-left h1 {
+        font-size: 2em;
+    }
+    
+    .section-title, .about-title, .pricing-title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-grid .team-member:nth-child(5){
+        grid-column: auto;
+    }
+
+    .info-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .nav-links {
+        width: 85%;
+    }
+    
+    .nav-buttons.active {
+        right: 7.5%;
+    }
+    
+    .btn, .btn-secondary {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    
+    .home-left div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-secondary {
+        margin-left: 0;
     }
 }
