@@ -61,7 +61,13 @@ const translations = {
         "footer.email": "Email",
         "footer.legal": "Legal",
         "footer.terms": "Terms & Conditions",
-        "footer.privacy": "Privacy Policy"
+        "footer.privacy": "Privacy Policy",
+        "videos.title": "Our Videos",
+        "videos.aboutProduct": "About the Product",
+        "videos.aboutTeam": "About the Team",
+        "videos.comingSoon": "Video coming soon",
+        "videos.productDescription": "Learn more about Finteka's features and how our platform can transform your consulting experience.",
+        "videos.teamDescription": "Meet the team behind Finteka and discover our mission to revolutionize professional consulting."
     },
     es: {
         title: "FinTeka",
@@ -125,7 +131,13 @@ const translations = {
         "footer.email": "Correo",
         "footer.legal": "Legal",
         "footer.terms": "Términos y Condiciones",
-        "footer.privacy": "Política de Privacidad"
+        "footer.privacy": "Política de Privacidad",
+        "videos.title": "Nuestros Videos",
+        "videos.aboutProduct": "Sobre el Producto",
+        "videos.aboutTeam": "Sobre el Equipo",
+        "videos.comingSoon": "Video próximamente",
+        "videos.productDescription": "Conoce más sobre las características de Finteka y cómo nuestra plataforma puede transformar tu experiencia de consultoría.",
+        "videos.teamDescription": "Conoce al equipo detrás de Finteka y descubre nuestra misión de revolucionar la consultoría profesional."
     }
 };
 
