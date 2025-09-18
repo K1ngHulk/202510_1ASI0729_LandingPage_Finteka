@@ -1,0 +1,53 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo principal -->
+  <rect width="200" height="200" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- Tarjeta de crédito/débito -->
+  <rect x="30" y="40" width="80" height="50" rx="5" ry="5" fill="#F6AA1C" stroke="#333" stroke-width="1"/>
+  <rect x="35" y="50" width="40" height="5" fill="#333" rx="1" ry="1"/>
+  <rect x="35" y="70" width="20" height="5" fill="#333" rx="1" ry="1"/>
+  <rect x="60" y="70" width="20" height="5" fill="#333" rx="1" ry="1"/>
+  <rect x="85" y="70" width="20" height="5" fill="#333" rx="1" ry="1"/>
+  <circle cx="95" cy="50" r="10" fill="#FF5722" opacity="0.7"/>
+  <circle cx="100" cy="50" r="10" fill="#2196F3" opacity="0.7"/>
+  
+  <!-- Smartphone con app de pagos -->
+  <rect x="130" y="40" width="40" height="70" rx="5" ry="5" fill="#333"/>
+  <rect x="135" y="45" width="30" height="55" rx="2" ry="2" fill="#fff"/>
+  <circle cx="150" cy="105" r="3" fill="#666"/>
+  
+  <!-- Pantalla de la app -->
+  <rect x="140" y="50" width="20" height="5" fill="#F6AA1C" rx="1" ry="1"/>
+  <rect x="140" y="60" width="20" height="5" fill="#eee" rx="1" ry="1"/>
+  <rect x="140" y="70" width="20" height="5" fill="#eee" rx="1" ry="1"/>
+  <rect x="140" y="80" width="20" height="5" fill="#007B9E" rx="1" ry="1"/>
+  <text x="150" y="84" font-family="Arial" font-size="4" fill="white" text-anchor="middle">PAGAR</text>
+  
+  <!-- Iconos de métodos de pago -->
+  <circle cx="50" cy="130" r="10" fill="#FF5722"/>
+  <text x="50" y="134" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">M</text>
+  
+  <circle cx="80" cy="130" r="10" fill="#4CAF50"/>
+  <text x="80" y="134" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">$</text>
+  
+  <circle cx="110" cy="130" r="10" fill="#2196F3"/>
+  <text x="110" y="134" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">P</text>
+  
+  <circle cx="140" cy="130" r="10" fill="#9C27B0"/>
+  <text x="140" y="134" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">B</text>
+  
+  <!-- Flechas de conexión -->
+  <path d="M70 65 Q100 65 130 65" stroke="#333" stroke-width="1" stroke-dasharray="3,2" fill="none"/>
+  <polygon points="125,63 130,65 125,67" fill="#333"/>
+  
+  <path d="M95 130 Q95 100 95 90" stroke="#333" stroke-width="1" stroke-dasharray="3,2" fill="none"/>
+  <polygon points="93,95 95,90 97,95" fill="#333"/>
+  
+  <!-- Símbolo de seguridad -->
+  <path d="M100 160 L110 160 L110 170 L100 170 Z" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="105" cy="165" r="2" fill="#333"/>
+  <line x1="105" y1="165" x2="105" y2="168" stroke="#333" stroke-width="1"/>
+  
+  <!-- Texto -->
+  <text x="100" y="185" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">Manage Payments</text>
+</svg>

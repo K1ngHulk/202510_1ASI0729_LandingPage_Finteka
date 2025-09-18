@@ -79,9 +79,9 @@ document.addEventListener('keydown', (e) => {
 });
 
     navLinks.forEach(link => {
-    link.style.color = 'white';
+    link.style.color = '#1C0A07';
     if (link.getAttribute('href') === `#${currentSection}`) {
-    link.style.color = '#4ecdc4';
+    link.style.color = '#621708';
 }
 });
 });

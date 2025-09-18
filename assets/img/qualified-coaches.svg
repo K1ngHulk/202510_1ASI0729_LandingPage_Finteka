@@ -1,0 +1,56 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo principal -->
+  <rect width="200" height="200" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- Entrenador -->
+  <circle cx="60" cy="70" r="25" fill="#4CAF50"/>
+  <!-- Cara del entrenador -->
+  <circle cx="60" cy="60" r="15" fill="#FFE0B2"/>
+  <!-- Ojos -->
+  <circle cx="55" cy="57" r="2" fill="#333"/>
+  <circle cx="65" cy="57" r="2" fill="#333"/>
+  <!-- Boca -->
+  <path d="M55 65 Q60 68 65 65" stroke="#333" stroke-width="1" fill="none"/>
+  <!-- Gorra -->
+  <path d="M45 52 Q60 40 75 52" stroke="#333" stroke-width="2" fill="#FF9800"/>
+  <rect x="45" y="52" width="30" height="3" fill="#FF9800" rx="1" ry="1"/>
+  
+  <!-- Silbato -->
+  <rect x="58" y="75" width="4" height="8" fill="#FFD700" rx="1" ry="1"/>
+  <circle cx="60" cy="83" r="3" fill="#FFD700"/>
+  
+  <!-- Cronómetro -->
+  <circle cx="80" cy="90" r="8" fill="white" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="90" x2="80" y2="85" stroke="#333" stroke-width="1"/>
+  <line x1="80" y1="90" x2="84" y2="90" stroke="#333" stroke-width="1"/>
+  <circle cx="80" cy="90" r="1" fill="#333"/>
+  <rect x="78" y="80" width="4" height="2" fill="#333" rx="1" ry="1"/>
+  
+  <!-- Jugador -->
+  <circle cx="140" cy="70" r="25" fill="#2196F3"/>
+  <!-- Cara del jugador -->
+  <circle cx="140" cy="60" r="15" fill="#FFE0B2"/>
+  <!-- Ojos -->
+  <circle cx="135" cy="57" r="2" fill="#333"/>
+  <circle cx="145" cy="57" r="2" fill="#333"/>
+  <!-- Boca -->
+  <path d="M135 65 Q140 68 145 65" stroke="#333" stroke-width="1" fill="none"/>
+  
+  <!-- Balón -->
+  <circle cx="140" cy="100" r="10" fill="#FF5722"/>
+  <path d="M135 93 L145 107 M135 107 L145 93 M130 100 L150 100" stroke="white" stroke-width="1" fill="none"/>
+  
+  <!-- Certificado -->
+  <rect x="90" y="120" width="40" height="30" fill="white" stroke="#333" stroke-width="1" rx="2" ry="2"/>
+  <line x1="95" y1="130" x2="125" y2="130" stroke="#333" stroke-width="1"/>
+  <line x1="95" y1="135" x2="125" y2="135" stroke="#333" stroke-width="1"/>
+  <line x1="95" y1="140" x2="115" y2="140" stroke="#333" stroke-width="1"/>
+  <circle cx="110" cy="125" r="3" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Líneas de movimiento/instrucción -->
+  <path d="M70 70 Q90 60 120 70" stroke="#333" stroke-width="1" stroke-dasharray="3,2" fill="none"/>
+  <polygon points="115,68 120,70 115,72" fill="#333"/>
+  
+  <!-- Texto -->
+  <text x="100" y="170" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">Guaranteed Coaches</text>
+</svg>

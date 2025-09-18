@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo principal -->
+  <rect width="200" height="200" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- Laptop/Dispositivo -->
+  <rect x="30" y="40" width="140" height="90" rx="5" ry="5" fill="#333"/>
+  <rect x="35" y="45" width="130" height="75" rx="2" ry="2" fill="#fff"/>
+  <rect x="60" y="130" width="80" height="5" rx="2" ry="2" fill="#333"/>
+  <rect x="90" y="135" width="20" height="3" rx="1" ry="1" fill="#333"/>
+  
+  <!-- Pantalla de reserva -->
+  <rect x="45" y="55" width="110" height="55" fill="#F6AA1C" rx="2" ry="2"/>
+  
+  <!-- Calendario -->
+  <rect x="55" y="65" width="40" height="35" fill="white" stroke="#333" stroke-width="1" rx="2" ry="2"/>
+  <line x1="55" y1="75" x2="95" y2="75" stroke="#333" stroke-width="1"/>
+  <text x="60" y="72" font-family="Arial" font-size="6" fill="#333">MAYO</text>
+  
+  <!-- Días de la semana -->
+  <text x="60" y="82" font-family="Arial" font-size="4" fill="#333">L M X J V S D</text>
+  
+  <!-- Números del calendario -->
+  <text x="60" y="90" font-family="Arial" font-size="4" fill="#333">1 2 3 4 5 6 7</text>
+  <text x="60" y="95" font-family="Arial" font-size="4" fill="#333">8 9 10 11 12 13 14</text>
+  <text x="60" y="100" font-family="Arial" font-size="4" fill="#333">15 16 17 18 19 20 21</text>
+  
+  <!-- Día seleccionado -->
+  <circle cx="75" cy="97.5" r="3" fill="#F6AA1C" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Formulario de reserva -->
+  <rect x="105" y="65" width="40" height="35" fill="white" stroke="#333" stroke-width="1" rx="2" ry="2"/>
+  <text x="110" y="72" font-family="Arial" font-size="5" fill="#333" font-weight="bold">Reserva</text>
+  
+  <!-- Campos del formulario -->
+  <rect x="110" y="75" width="30" height="5" fill="#eee" rx="1" ry="1"/>
+  <rect x="110" y="83" width="30" height="5" fill="#eee" rx="1" ry="1"/>
+  <rect x="110" y="91" width="30" height="5" fill="#eee" rx="1" ry="1"/>
+  
+  <!-- Botón de reserva -->
+  <rect x="115" y="100" width="20" height="7" fill="#007B9E" rx="2" ry="2"/>
+  <text x="125" y="105" font-family="Arial" font-size="4" fill="white" text-anchor="middle">RESERVAR</text>
+  
+  <!-- Smartphone con app -->
+  <rect x="140" y="120" width="20" height="35" rx="2" ry="2" fill="#333"/>
+  <rect x="142" y="123" width="16" height="27" rx="1" ry="1" fill="#F6AA1C"/>
+  <circle cx="150" cy="153" r="2" fill="#666"/>
+  
+  <!-- Texto -->
+  <text x="100" y="180" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">Online Booking</text>
+</svg>

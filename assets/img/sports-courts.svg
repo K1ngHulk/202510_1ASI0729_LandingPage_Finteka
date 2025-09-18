@@ -1,0 +1,38 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo principal -->
+  <rect width="200" height="200" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- Cancha de tenis -->
+  <rect x="20" y="20" width="75" height="120" fill="#4CAF50" rx="2" ry="2"/>
+  <rect x="20" y="80" width="75" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="57" y="20" width="1" height="120" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="20" y="50" width="75" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="20" y="110" width="75" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <!-- Red de tenis -->
+  <rect x="57" y="50" width="1" height="60" fill="white" stroke="white" stroke-width="2"/>
+  
+  <!-- Cancha de baloncesto -->
+  <rect x="105" y="20" width="75" height="120" fill="#FF9800" rx="2" ry="2"/>
+  <rect x="105" y="80" width="75" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <circle cx="142.5" cy="50" r="15" fill="none" stroke="white" stroke-width="1"/>
+  <circle cx="142.5" cy="50" r="2" fill="white"/>
+  <rect x="127.5" y="20" width="30" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="127.5" y="20" width="1" height="10" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="157.5" y="20" width="1" height="10" fill="white" stroke="white" stroke-width="1"/>
+  
+  <circle cx="142.5" cy="110" r="15" fill="none" stroke="white" stroke-width="1"/>
+  <circle cx="142.5" cy="110" r="2" fill="white"/>
+  <rect x="127.5" y="139" width="30" height="1" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="127.5" y="130" width="1" height="10" fill="white" stroke="white" stroke-width="1"/>
+  <rect x="157.5" y="130" width="1" height="10" fill="white" stroke="white" stroke-width="1"/>
+  
+  <!-- Texto -->
+  <text x="100" y="170" font-family="Arial" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">Sport Courts</text>
+  
+  <!-- Pelota de tenis -->
+  <circle cx="40" cy="65" r="5" fill="#FFEB3B"/>
+  
+  <!-- Balón de baloncesto -->
+  <circle cx="142.5" cy="80" r="7" fill="#FF5722"/>
+  <path d="M138.5 76 L146.5 84 M138.5 84 L146.5 76 M142.5 73 L142.5 87" stroke="#333" stroke-width="0.5" fill="none"/>
+</svg>

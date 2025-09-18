@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="FinTeka - Conectamos individuos y empresas con expertos verificados">
+    <meta name="description" content="PlayMatch - Conectting Players, Elevating Games">
     <meta name="theme-color" content="#003844">
-    <title data-i18n="title">FinTeka</title>
+    <title data-i18n="title">PlayMatch</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,9 @@
 <div class="menu-overlay" id="menu-overlay"></div>
 <nav>
     <div class="logo">
-        <img src="assets/img/finteka.png" alt="Logo">
+        <img src="assets/img/Logo.png" alt="Logo">
     </div>
-    <div class="hamburger" id="hamburger-menu" aria-label="Menú" role="button" tabindex="0" aria-expanded="false" aria-controls="nav-links">
+    <div class="hamburger" id="hamburger-menu" aria-label="Menú" data-i18n="nav.menu" role="button" tabindex="0" aria-expanded="false" aria-controls="nav-links">
         <span></span>
         <span></span>
         <span></span>
@@ -29,8 +29,8 @@
         <a href="#subscribe" data-i18n="nav.subscribe">Subscribe</a>
     </div>
     <div class="nav-buttons" id="nav-buttons">
-        <a href="https://finteka-webapplication.netlify.app/" class="btn-login" data-i18n="nav.login">Login</a>
-        <a href="https://finteka-webapplication.netlify.app/" class="btn-register" data-i18n="nav.register">Register</a>
+        <a href="" class="btn-login" data-i18n="nav.login">Login</a>
+        <a href="" class="btn-register" data-i18n="nav.register">Register</a>
         <div class="lang-switcher">
             <select id="language-select">
                 <option value="en">English</option>
@@ -42,10 +42,10 @@
 <!-- Sección Home -->
 <section id="home">
     <div class="home-left">
-        <h1 data-i18n="home.title">Welcome to FinTeka!</h1>
+        <h1 data-i18n="home.title">Welcome to PlayMatch!</h1>
         <div class="home-description">
-            <h3 data-i18n="about.whatIs">What is Finteka?</h3>
-            <p data-i18n="about.description">A digital platform that connects experts in various fields with individuals and companies seeking professional advice. It allows consultants to offer their services, manage bookings and receive payments securely, while users can find verified specialists, book sessions easily and access personalized consulting from anywhere.</p>
+            <h3 data-i18n="about.whatIs">What is PlayMatch?</h3>
+            <p data-i18n="about.description">is a web platform that connects amateur athletes with sports facilities and independent coaches.</p>
         </div>
         <div>
             <a href="#" class="btn" data-i18n="home.register">Register</a>
@@ -53,7 +53,7 @@
         </div>
     </div>
     <div class="home-right">
-        <img src="assets/img/home-image.jpg" alt="People in meeting" class="home-image">
+        <img src="assets/img/home-image.png" alt="People in meeting" class="home-image">
     </div>
 </section>
 <!-- Sección About Us -->
@@ -63,87 +63,83 @@
     <div class="vision-mission-grid">
         <div class="vision-mission-card">
             <h3 data-i18n="about.mission">Mission</h3>
-            <p data-i18n="about.missionText"></p>
+            <p data-i18n="about.missionText">Through its first product, the PlayMatch web app, the company offers a comprehensive solution that simplifies sports court reservations, optimizes the organization of games and training sessions, and provides coaches with the tools they need to manage their visibility, payments, and performance statistics.</p>
         </div>
         <div class="vision-mission-card">
             <h3 data-i18n="about.vision">Vision</h3>
-            <p data-i18n="about.visionText"></p>
+            <p data-i18n="about.visionText">More than just an app, MatchPoint aims to become a strategic ally for those who want to practice sports easily, reliably, and efficiently, reducing barriers to access and creating new opportunities for the sports community.</p>
         </div>
     </div>
     
     <div class="team-grid">
         <div class="team-member">
             <div class="team-image">
-                <img src="assets/img/Sergio-Aguirre.jpg" alt="Sergio Aguirre" class="team-image">
-            </div>
-            <h3 class="team-name">Sergio Cesar Aguirre Castillo</h3>
-            <p class="team-position">Software Engineering student</p>
-        </div>
-        <div class="team-member">
-            <div class="team-image">
-                <img src="assets/img/Mathias-Javier.jpg" alt="Mathias Javier" class="team-image">
+                <img src="assets/img/Mathias-Javier.jpg" alt="Mathias-Javier" class="team-image">
             </div>
             <h3 class="team-name">Mathias Javier Murillo</h3>
-            <p class="team-position">Software Engineering student</p>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
         </div>
         <div class="team-member">
             <div class="team-image">
-                <img src="assets/img/Daiki-Oshiro.png" alt="Daiki Oshiro" class="team-image">
+                <img src="" alt="" class="team-image">
             </div>
-            <h3 class="team-name">Daiki Oscar Oshiro Yamashita</h3>
-            <p class="team-position">Software Engineering student</p>
+            <h3 class="team-name">Andy Mio Mejia</h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
         </div>
         <div class="team-member">
             <div class="team-image">
-                <img src="assets/img/Russell-Romero.png" alt="Russell Romero" class="team-image">
+                <img src="" alt="" class="team-image">
             </div>
-            <h3 class="team-name">Russell Stephen Romero Qwistgaard</h3>
-            <p class="team-position" data-i18n="about.degree">Software Engineering student</p>
+            <h3 class="team-name">Oliver Jonseck Choque</h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="" alt="" class="team-image">
+            </div>
+            <h3 class="team-name">Juan Carlos Angulo Abud</h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
         </div>
     </div>
 </section>
 <!-- Sección Learn More -->
 <section id="learn">
-    <h2 class="section-title" data-i18n="learn.title">Learn More About Finteka</h2>
+    <h2 class="section-title" data-i18n="learn.title">Learn More About PlayMatch</h2>
     <div class="info-grid">
         <div class="info-item">
             <div class="info-icon">
-                <img src="assets/img/marketplace-experts.jpg" alt="Verified Experts Marketplace" class="info-icon">
+                <img src="assets/img/sports-courts.svg" alt="Sport Courts" class="info-icon">
             </div>
             <div class="info-content">
-                <h3 data-i18n="learn.subtitle1">Verified Experts Marketplace</h3>
-                <p data-i18n="learn.text1">Access a trusted network of professionals in areas such as finance, marketing, technology, personal development and more.
-                    All consultants go through a verification process to ensure quality and trust.</p>
+                <h3 data-i18n="learn.subtitle1">Sport Courts</h3>
+                <p data-i18n="learn.text1">You will be able to reserve sports courts for whatever sport you want: basketball, soccer, tennis, and many other sports.</p>
             </div>
         </div>
         <div class="info-item">
             <div class="info-icon">
-                <img src="assets/img/booking.jpg" alt="Intelligent Booking and Scheduling" class="info-icon">
+                <img src="assets/img/online-booking.svg" alt="Online Booking" class="info-icon">
             </div>
             <div class="info-content" >
-                <h3 data-i18n="learn.subtitle2">Intelligent Booking and Scheduling</h3>
-                <p data-i18n="learn.text2">Allow users to easily book sessions based on consultant availability.
-                    Calendar integration, push notifications and reminders so you never miss an appointment!</p>
+                <h3 data-i18n="learn.subtitle2">Online Booking</h3>
+                <p data-i18n="learn.text2">You no longer need to go to the courts to make reservations; manage your reservations from the app.</p>
             </div>
         </div>
         <div class="info-item">
             <div class="info-icon">
-                <img src="assets/img/consulting.jpg" alt="Secure and Personalized Online Consulting" class="info-icon">
+                <img src="assets/img/qualified-coaches.svg" alt="Guaranteed Coaches" class="info-icon">
             </div>
             <div class="info-content">
-                <h3 data-i18n="learn.subtitle3">Secure and Personalized Online Consulting</h3>
-                <p data-i18n="learn.text3">1:1 video call sessions, with the option to share documents,
-                    record the meeting (if authorized), and follow up afterwards for a complete and professional experience.</p>
+                <h3 data-i18n="learn.subtitle3">Guaranteed Coaches</h3>
+                <p data-i18n="learn.text3">You can get 100% guaranteed, professional coaches who are fully customized to your needs.</p>
             </div>
         </div>
         <div class="info-item">
             <div class="info-icon">
-                <img src="assets/img/Payment-Invoicing.jpg" alt="Payment and Invoicing Management" class="info-icon">
+                <img src="assets/img/payment-management.svg" alt="Manage Payments" class="info-icon">
             </div>
             <div class="info-content">
-                <h3 data-i18n="learn.subtitle4">Payment and Invoicing Management</h3>
-                <p data-i18n="learn.text4">Integrated payment platform to facilitate secure transactions.
-                    Consultants are paid on time and users can pay by multiple methods, with automatic billing.</p>
+                <h3 data-i18n="learn.subtitle4">Manage Payments</h3>
+                <p data-i18n="learn.text4">Manage your payments securely and reliably. Using an extensive payment gateway.</p>
             </div>
         </div>
     </div>
@@ -181,7 +177,7 @@
 
         <div class="pricing-card">
             <h3 data-i18n="subscribe.premium">Premium Consulting</h3>
-            <div class="price" data-i18n="subscribe.price2">S/.50,00</div>
+            <div class="price" data-i18n="subscribe.price2">S/ 50.00</div>
             <ul>
                 <li data-i18n="subscribe.premium1">Unlimited service publication</li>
                 <li data-i18n="subscribe.premium2">Unlimited bookings</li>
@@ -207,11 +203,11 @@
         <div class="video-card">
             <h3 data-i18n="videos.aboutProduct">About the Product</h3>
             <div class="video-placeholder">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ErWPUfgQtrc" 
-                    title="About the Product" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="" 
+                    title="About the Product" data-i18n="video.productTitle" frameborder="0" allowfullscreen></iframe>
             </div>
             <p data-i18n="videos.productDescription">
-                Learn more about Finteka's features and how our platform can transform your consulting experience.
+                Learn more about PlayMatch's features and how our platform can transform your playing experience.
             </p>
         </div>
         
@@ -219,11 +215,11 @@
 <div class="video-card">
     <h3 data-i18n="videos.aboutTeam">About the Team</h3>
     <div class="video-placeholder">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/5tTVkedLv2A" 
-            title="About the Team" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="" 
+            title="About the Team" data-i18n="video.teamTitle" frameborder="0" allowfullscreen></iframe>
     </div>
     <p data-i18n="videos.teamDescription">
-        Meet the team behind Finteka and discover our mission to revolutionize professional consulting.
+        Meet the team behind PlayMatch and discover our mission to revolutionize professional players.
     </p>
 </div>
 
@@ -244,7 +240,7 @@
         <div>
             <strong data-i18n="footer.contact">Contact Us</strong><br>
             <span data-i18n="footer.phone">Phone</span>: ‪+51 999 999 999‬<br>
-            <span data-i18n="footer.email">Email</span>: serviciocliente@fintek.com
+            <span data-i18n="footer.email">Email</span>: serviciocliente@playmatch.com
         </div>
         <div>
             <strong data-i18n="footer.legal">Legal</strong><br>
